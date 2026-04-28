@@ -161,12 +161,12 @@ def section_header(title, subtitle=""):
         </div>
     """, unsafe_allow_html=True)
 
-def info_card(text, color="#2563EB"):
+def info_card(text, color="#2563EB", border="#E5E7EB"):
     st.markdown(f"""
-        <div style="background: #ffffff; border: 1px solid #E5E7EB; 
-                    border-left: 4px solid {color}; padding: 16px; 
-                    border-radius: 8px; margin: 16px 0;">
-            <span style="color: #374151; font-size: 14px;">{text}</span>
+        <div style="background: #ffffff; border: 1px solid {border}; 
+                    border-left: 5px solid {color}; padding: 16px; 
+                    border-radius: 10px; margin: 15px 0;">
+            <span style="color: #374151; font-size: 14px; line-height: 1.6;">{text}</span>
         </div>
     """, unsafe_allow_html=True)
 
