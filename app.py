@@ -630,7 +630,7 @@ Share these credentials securely with the organisation:
     else:
         styles.section_header("⚙️ SuperAdmin Login",
                                "Restricted access — authorised personnel only")
-        styles.info_card("🔒 This panel is restricted to MediaGuard admupinistrators only.")
+        styles.info_card("🔒 This panel is restricted to MediaGuard administrators only.")
         c1, c2, c3 = st.columns([1, 2, 1])
         with c2:
             ap = st.text_input("Master Admin Password", type="password", key="admin_pwd")
